@@ -36,18 +36,20 @@ A simple web application to register clients, products, and sales, with a dashbo
 ```bash
 git clone https://github.com/patocastro/Sales-Web-App
 cd Sales-Web-App
+```
 
 2. **Install dependencies**
 
 ```bash
 npm install
-
+```
 3. **Configure environment variables**
 
 ```bash
 cp .env.example .env
-
+```
 4. **Run the app**
 
 ```bash
 npm start
+```
