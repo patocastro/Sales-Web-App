@@ -1,0 +1,28 @@
+{
+  "name": "sales-web-app",
+  "version": "1.0.0",
+  "description": "Simple web application to register clients, products and sales.",
+  "main": "app.js",
+  "scripts": {
+    "init-db": "node init-db.js"
+  },
+  "dependencies": {
+    "csurf": "^1.11.0",
+    "csv-parser": "^3.2.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.10",
+    "express": "^4.18.2",
+    "helmet": "^8.1.0",
+    "pg": "^8.7.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patocastro/Sales-Web-App.git"
+  },
+  "author": "Patricio Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patocastro/Sales-Web-App/issues"
+  },
+  "homepage": "https://github.com/patocastro/Sales-Web-App#readme"
+}
